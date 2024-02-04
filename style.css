@@ -1,0 +1,100 @@
+body {
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%; /* Ajusta el tamaño para que coincida con las dimensiones de la imagen */
+    background-color: #999;
+    margin: 0; 
+    width: 1433px; /* Establece el ancho igual al ancho de la imagen */
+    height: 459px; /* Establece la altura igual a la altura de la imagen */
+}
+
+
+img {
+	width: 90px;
+	position: relative;
+}
+
+.inizia {
+	font-family: Skranji;
+	font-size: 50px;
+	color: rgb(0, 41, 255);
+	position: relative;
+	left: 47px;
+	top: 0px;
+	background-color: #ffffff;
+	padding: 10px 40px 10px 40px;
+	border-radius: 20px;
+	border: 1px solid black;
+	box-shadow: 0 0 5px black;
+}
+
+.cabra, .lobo, .col {
+	height: 100px;
+}
+
+.clicca {
+	cursor: pointer;
+}
+
+#sx, #dx {
+	width: 308px;
+	height: 308px;
+}
+
+#scores{
+	width: 308px;
+	height: 108px;
+	background: #5e949900;
+	margin-top: 130px;
+	position: relative;
+}
+
+#zat {
+	width: 308px;
+	height: 108px;
+	background: #5e949900;
+	margin-top: 130px;
+	position: relative;
+	background-image: url('bote.png');
+	background-repeat: no-repeat;
+	background-size: 80% 80%;
+}
+
+#sx, #zat {
+	float: left;
+}
+
+#dx {
+	float: right;
+}
+
+#button {
+	display: none;
+	clear: both;
+	margin: auto;
+	width: 130px;
+	background: #ffffff;
+	color: blue;
+	text-align: center;
+	padding: 10px;
+	font-family: Skranji;
+	border-radius: 20px;
+	border: 1px solid black;
+	box-shadow: 0 0 5px black;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+#dialog {
+	display: none;
+	position: absolute;
+	top: 0px;
+	width: 450px;
+	font-family: sans-serif;
+	background: rgb(255, 224, 0);
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+}
+
